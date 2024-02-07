@@ -14,7 +14,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>14</maven.compiler.source>
         <maven.compiler.target>14</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <io.appium.version>9.1.0</io.appium.version>
         <log4jcore.version>2.20.0</log4jcore.version>
         <log4japi.version>2.20.0</log4japi.version>
@@ -24,7 +23,6 @@
         <maven.compiler.version>3.11.0</maven.compiler.version>
         <java.release.version>11</java.release.version>
         <maven.surefire.version>3.1.0</maven.surefire.version>
-        <aventstack.version>5.0.9</aventstack.version>
 
     </properties>
 
@@ -57,12 +55,6 @@
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-api</artifactId>
             <version>${log4japi.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.aventstack</groupId>
-            <artifactId>extentreports</artifactId>
-            <version>${aventstack.version}</version>
         </dependency>
 
     </dependencies>

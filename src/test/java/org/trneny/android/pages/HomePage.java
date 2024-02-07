@@ -1,6 +1,5 @@
 package org.trneny.android.pages;
 
-import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.nativekey.AndroidKey;
 import io.appium.java_client.android.nativekey.KeyEvent;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -17,6 +16,7 @@ public class HomePage {
 
     public void openClockApp() {
         getDriver().pressKey(new KeyEvent(AndroidKey.HOME));
-        getDriver().findElement(AppiumBy.xpath("//android.widget.TextView[@content-desc=\"Predicted app: Clock\"]")).click();
+        getDriver().activateApp("com.google.android.deskclock");
+        System.out.println("Clock opened");
     }
 }

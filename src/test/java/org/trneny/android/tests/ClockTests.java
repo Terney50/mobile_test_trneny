@@ -24,7 +24,7 @@ public class ClockTests extends BaseTest {
     }
 
     @Test
-    public void newAlarmScenario() {
+    public void newAlarmScenario() throws InterruptedException {
         final HomePage homePage = new HomePage();
         final ClockPage clockPage = new ClockPage();
 
